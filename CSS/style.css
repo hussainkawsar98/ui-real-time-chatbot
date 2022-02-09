@@ -1,0 +1,217 @@
+/* Global style */
+body {
+    color: #40567c;
+}
+a {
+    color: #40567c;
+    text-decoration: none;
+}
+p {
+    margin: 0;
+    font-size: 14px;
+}
+.secondary_color {
+    color: #517ee3;
+}
+/* .user_messages_group .notification_part {
+    font-weight: bold;
+} */
+/* Main Content Style */
+.main_contant {
+    padding: 10px;
+    padding-left: 60px;
+    background-color: #f1f1f1;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Left Option Style */
+.left_option_bar {
+    background-color: #3166de;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    bottom: 0;
+    text-align: center;
+    width: 60px;
+    left: 0;
+}
+.left_option_bar .logo {
+    position: absolute;
+    top: 20px;
+}
+.left_option_bar i {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.more_option {
+    position: absolute;
+    top: 30%;
+}
+.profile_icon {
+    position: absolute;
+    bottom: 20px;
+}
+.left_option_bar .more_option a {
+    color: #ffffff;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #598af7;
+    margin-bottom: 25px;
+}
+.left_option_bar .more_option a i {
+    font-size: 16px;
+    line-height: 30px;
+}
+.left_option_bar .profile_icon a {
+    width: 28px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #c9e8f9;
+    padding: 5px;
+}
+.left_option_bar .profile_icon a i {
+    color: #61d9d8;
+}
+
+/* Left Part Style */
+.left_part {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.left_part .brand_title {
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 15px 10px 10px 10px;
+}
+.left_part .brand_left h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.left_part .brand_right img{
+    width: 20px;
+}
+.left_part .brand_right {
+    padding-top: 5px;
+}
+/* Search Box Style */
+.search_box {
+    padding: 10px;
+}
+.search_box form {
+    position: relative;
+}
+.search_box .form-control {
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 30px;
+    border:none;
+    background-color: #f8fafd;
+}
+.search_box .form-control:focus {
+    border-color: #ccc;
+    box-shadow: #f8fafd 0px 7px 29px 0px;
+}
+.search_box input::placeholder {
+    color: #ccc;
+    font-size: 14px;
+}
+.search_box form i {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Message Group */
+.user_messages_group .user_message_group_single {
+    display: flex;
+    column-gap: 10px;
+    padding: 12px 0px 0 7px;
+}
+.user_messages_group .short_view p{
+    font-size: 13px;
+}
+.user_messages_group .short_view i{
+    font-size: 15px;
+    padding-right: 3px;
+}
+.user_messages_group .short_view .video_miss, .short_view .voice_miss {
+    color: #ff6d55;
+}
+.user_messages_group a:hover {
+    background-color: #f0f5fd;
+    color: #40567c;
+
+}
+.user_messages_group .user_message_group_single.active {
+    background-color: #f0f5fd;
+}
+.user_messages_group .profile_img {
+    width: 55px;
+    height: 55px;
+    position: relative;
+}
+.user_messages_group .profile_img.active span {
+    position: absolute;
+    background-color: #517ee3;
+    width: 12px;
+    height: 12px;
+    right: 3px;
+    bottom: 3px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.user_messages_group .profile_img.not_active span {
+    background-color: #96a6c2;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 3px;
+    bottom: 3px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.user_messages_group .profile_img img {
+    border-radius: 50%;
+}
+.user_messages_group .profile_name h5 {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+.user_messages_group .user_message_group_single .msg_right_part {
+    padding: 5px 10px 13px 0px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.user_messages_group .user_message_group_single.active .msg_right_part {
+    border-bottom: transparent;
+}
+.user_messages_group .msg_right_part .notification_part i {
+    font-size: 14px;
+    padding-left: 9px;
+}
+.user_messages_group .msg_right_part .notification_part span {
+    padding: 0 5px;
+    background-color: #517ee3;
+    border-radius: 10px;
+    color: #fff;
+    height: 20px;
+    line-height: 18px;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    width: 20px;
+    margin-left: 9px;
+    float: right;
+}
